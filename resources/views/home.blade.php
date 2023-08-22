@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="mb-5">LARAVEL MOVIES</h1>
+    <div class="container pt-5">
+        <h1 class="mb-5 text-center">LARAVEL MOVIES</h1>
         <div class="row row-cols-2">
             @forelse ($movies as $movie)
                 <div class="col mb-4">
