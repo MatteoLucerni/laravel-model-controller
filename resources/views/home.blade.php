@@ -12,6 +12,11 @@
 
 <body>
     <h1>TEST</h1>
+    @forelse ($movies as $movie)
+        <h1>{{ $movie->title }}</h1>
+    @empty
+        <h1>NOT FOUND</h1>
+    @endforelse
 </body>
 
 </html>
